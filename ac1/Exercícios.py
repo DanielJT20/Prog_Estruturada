@@ -20,7 +20,7 @@ x1 = (((-1)*b) + (delta**0.5))/(2*a)
 
 x2 = (((-1)*b) - (delta**0.5))/(2*a)
 
-print("As raizes da equação são:", round(x1, 3) ,"e", round(x2, 3))
+print("As raizes da equação são:", x1 ,"e", x2, )
 
 
 # Exercício terminado, segue o outro a baixo:
