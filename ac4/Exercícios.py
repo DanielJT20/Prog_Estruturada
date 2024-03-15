@@ -7,16 +7,7 @@ Programação Estruturada
 Daniel de Jesus Teixeira
 Ciência de Dados e IA, turma: 8001
 
-Exercícios AC4 - 4
-"""
-
-"""
-Programação Estruturada
-2024.1
-15/03/2024
-
-Estruturas de Decisão
-AC4
+Exercícios AC4 - 1
 """
 
 def ler_nome():
