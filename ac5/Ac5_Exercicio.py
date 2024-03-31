@@ -1,5 +1,13 @@
+"""
+Programação Estruturada
+2024.1
+31/03/2024
 
+Daniel de Jesus Teixeira
+Ciência de Dados e IA, turma: 8001
 
+Exercício AC5 
+"""
 
 import random as rd
 
