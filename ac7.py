@@ -40,3 +40,11 @@ Ciência de Dados e IA, turma: 8001
 Exercício 2 - AC7 
 """
 
+pares = 0
+
+for _ in range(5):
+    numero = int(input())
+
+    pares += not (numero % 2)
+
+print(f'{pares} valores pares')
