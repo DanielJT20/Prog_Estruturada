@@ -2,7 +2,7 @@
 """
 Programação Estruturada
 2024.1
-12/04/2024
+21/04/2024
 
 Daniel de Jesus Teixeira
 Ciência de Dados e IA, turma: 8001
@@ -32,7 +32,7 @@ Exercício 1 - AC7
 """
 Programação Estruturada
 2024.1
-12/04/2024
+21/04/2024
 
 Daniel de Jesus Teixeira
 Ciência de Dados e IA, turma: 8001
@@ -48,3 +48,29 @@ for _ in range(5):
     pares += not (numero % 2)
 
 print(f'{pares} valores pares')
+
+"""
+Programação Estruturada
+2024.1
+21/04/2024
+
+Daniel de Jesus Teixeira
+Ciência de Dados e IA, turma: 8001
+
+Exercício 3 - AC7 
+"""
+
+X = int(input())
+Y = int(input())
+
+if (X > Y):
+    X, Y = Y, X
+
+soma = 0
+for i in range(X, Y + 1):
+    if(i % 13 == 0):
+        continue
+    soma += i
+
+print(soma)
+
