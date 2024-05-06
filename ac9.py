@@ -96,7 +96,9 @@ Ciência de Dados e IA, turma: 8001
 Exercício 5 - AC9
 """
 
+C, P, F = [int(x) for x in input().strip().split(' ')]
 
+print('S' if P >= C * F else 'N')
 
 """
 Programação Estruturada
@@ -111,7 +113,6 @@ Exercício 6 - AC9
 
 
 
-
 """
 Programação Estruturada
 2024.1
@@ -123,8 +124,11 @@ Ciência de Dados e IA, turma: 8001
 Exercício 7 - AC9
 """
 
+x = int(input())
 
+x *=4
 
+print(x)
 
 """
 Programação Estruturada
