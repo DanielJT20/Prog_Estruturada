@@ -122,6 +122,7 @@ for i in range(int(input())):
     distancia_total += intervalo_horas * velocidade_intervalo
 print(distancia_total)
 
+
 """
 Programação Estruturada
 2024.1
