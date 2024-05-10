@@ -83,7 +83,12 @@ Ciência de Dados e IA, turma: 8001
 Exercício 4 - AC9
 """
 
+T = int(input())
+chas = [int(x) for x in input().strip().split(' ')]
 
+corretos = sum([1 for x in chas if x == T])
+
+print(corretos)
 
 """
 Programação Estruturada
@@ -111,7 +116,11 @@ Ciência de Dados e IA, turma: 8001
 Exercício 6 - AC9
 """
 
-
+distancia_total = 0
+for i in range(int(input())):
+    intervalo_horas, velocidade_intervalo = map(int, input().split())
+    distancia_total += intervalo_horas * velocidade_intervalo
+print(distancia_total)
 
 """
 Programação Estruturada
@@ -129,14 +138,3 @@ x = int(input())
 x *=4
 
 print(x)
-
-"""
-Programação Estruturada
-2024.1
-06/05/2024
-
-Daniel de Jesus Teixeira
-Ciência de Dados e IA, turma: 8001
-
-Exercício 8 - AC9
-"""
