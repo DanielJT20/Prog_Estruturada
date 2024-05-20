@@ -24,7 +24,7 @@ def iniciar_combate(aventureiro, monstro):
         dano = aventureiro.atacar()
         monstro.defender(dano)
         if not monstro.esta_vivo():
-            aventureiro.status = f"{monstro.nome} foi derrotado!"
+            aventureiro.status = f"{monstro.nome} foi derrotado! {aventureiro.nome} ganhou {monstro.xp}xp!"
             aventureiro.ganhar_xp(monstro.xp)
             return True
 

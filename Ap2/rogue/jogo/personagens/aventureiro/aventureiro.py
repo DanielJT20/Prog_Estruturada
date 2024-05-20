@@ -10,7 +10,7 @@ class Aventureiro:
         self.vida = self.vida_max
         self.posicao = [0, 0]
         self.nivel = 1
-        self.xp_max = XP_POR_NIVEL * self.nivel
+        self.xp_max = XP_POR_NIVEL
         self.xp = 0
 
         self.turnos_veneno = 0
@@ -36,6 +36,7 @@ class Aventureiro:
             self.ganhar_nivel()
 
     def ganhar_nivel(self):
+        self.xp_max += 5
         self.nivel += 1
         self.vida_max += 10
         self.vida = self.vida_max

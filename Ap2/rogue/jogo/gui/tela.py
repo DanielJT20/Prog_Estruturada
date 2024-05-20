@@ -69,13 +69,13 @@ class Tela:
 
         atributos = f"{aventureiro.nome}" \
             f" nv {aventureiro.nivel}" \
-            f"( {aventureiro.xp}/{aventureiro.xp_max})" \
+            f" ({aventureiro.xp}/{aventureiro.xp_max})" \
             f" - vida: {aventureiro.vida}/{aventureiro.vida_max};" \
             f" força: {aventureiro.forca};" \
             f" defesa: {aventureiro.defesa}"
         fonte = pygame.font.SysFont(FONTE, GRID // 2)
         texto = fonte.render(atributos, True, CORES.branco)
-        self.display.blit(texto, [MARGEM, ALTURA - MARGEM - texto.get_height()])
+        self.display.blit(texto, [MARGEM + 80 , ALTURA - MARGEM - texto.get_height()])
 
     def tesouro(self, tesouro):
         fonte = pygame.font.SysFont(FONTE, GRID // 2)
